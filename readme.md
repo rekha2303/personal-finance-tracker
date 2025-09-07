@@ -1,3 +1,44 @@
+Personal Finance Tracker
+
+The Finance Tracker is a full-stack web application designed to help users manage their personal finances by tracking income, expenses, and savings. It provides an intuitive dashboard, authentication system, and interactive charts for better financial insights.
+
+🚀 Features
+🔐 Authentication
+
+User registration & login with JWT-based authentication.
+
+Passwords securely hashed with bcrypt.
+
+User profile stored in MongoDB.
+
+💸 Expense & Income Management
+
+Add, edit, and delete expenses and incomes.
+
+Categorize transactions (e.g., Food, Rent, Salary, Investments).
+
+Real-time updates using Redux Toolkit in React.
+
+📊 Dashboard & Insights
+
+Total Income, Expenses, and Savings shown in stat cards.
+
+Monthly trends chart (Income vs Expenses) using Recharts LineChart.
+
+Expense breakdown by category using Pie Chart.
+
+List of recent transactions with edit/delete actions.
+
+🌍 Tech Stack
+
+Frontend: React.js (with Redux Toolkit, Tailwind CSS, Recharts)
+
+Backend: FastAPI (Python)
+
+Database: MongoDB (Atlas Cloud DB)
+
+Auth & Security: JWT, Passlib (bcrypt), CORS enabled
+
 # 🚀 GitHub Notes
 
 ## 1. Clone a Repository
