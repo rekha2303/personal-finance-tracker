@@ -5,6 +5,9 @@ export default function Footer() {
             <div className="container py-6 text-xs text-gray-500">
                 © {new Date().getFullYear()} Finance Tracker. All rights reserved.
             </div>
+            <div>
+                Logo
+            </div>
         </footer>
     );
 }
